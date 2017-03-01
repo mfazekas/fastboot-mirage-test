@@ -26,18 +26,10 @@ module.exports = function(environment) {
     }
   };
 
-  if (process.env.FASTBOOT) {
-    ENV['ember-cli-mirage'] = {
-      enabled: false
-    };
-    if (process.env.FASTBOOT_MIRAGE_PORT) {
-      let port = parseInt(process.env.FASTBOOT_MIRAGE_PORT);
-      ENV['ember-cli-mirage'].fastbootGlobal = { port };
-      ENV.api_host = `http://localhost:${port}`
-    }
-  }
-
   if (environment === 'development') {
+    ENV['ember-cli-mirage'] = {
+      useExpress: true
+    };
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
