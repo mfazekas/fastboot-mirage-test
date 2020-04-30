@@ -1905,23 +1905,6 @@ fastboot@^1.0.0-beta.5:
     simple-dom "^0.3.0"
     source-map-support "^0.4.0"
 
-fastboot@^1.0.0-rc.5:
-  version "1.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/fastboot/-/fastboot-1.0.0-rc.5.tgz#6795ea703fd5f1b5ee352946cff3c6760f2923ce"
-  dependencies:
-    chalk "^0.5.1"
-    cookie "^0.2.3"
-    debug "^2.1.0"
-    exists-sync "0.0.3"
-    express "^4.13.3"
-    express-cluster "0.0.4"
-    glob "^4.0.5"
-    minimist "^1.2.0"
-    najax "^1.0.1"
-    rsvp "^3.0.16"
-    simple-dom "^0.3.0"
-    source-map-support "^0.4.0"
-
 faye-websocket@~0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/faye-websocket/-/faye-websocket-0.10.0.tgz#4e492f8d04dfb6f89003507f6edbf2d501e7c6f4"
@@ -2486,8 +2469,8 @@ jquery-deferred@^0.3.0:
   resolved "https://registry.yarnpkg.com/jquery-deferred/-/jquery-deferred-0.3.1.tgz#596eca1caaff54f61b110962b23cafea74c35355"
 
 jquery@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.1.1.tgz#347c1c21c7e004115e0a4da32cece041fad3c8a3"
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
 
 js-tokens@1.0.1:
   version "1.0.1"
@@ -2698,10 +2681,6 @@ lodash.debounce@^3.1.1:
 lodash.defaults@^4.0.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
-
-lodash.defaultsdeep@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.0.tgz#bec1024f85b1bd96cbea405b23c14ad6443a6f81"
 
 lodash.find@^4.5.1:
   version "4.6.0"
@@ -3014,14 +2993,6 @@ najax@^0.7.0:
   dependencies:
     jquery-deferred "^0.3.0"
     lodash "^4.6.1"
-    qs "^6.2.0"
-
-najax@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/najax/-/najax-1.0.1.tgz#868054de164fdc6640e4eacc30c3b722c36d5f1e"
-  dependencies:
-    jquery-deferred "^0.3.0"
-    lodash.defaultsdeep "^4.6.0"
     qs "^6.2.0"
 
 negotiator@0.6.1:
